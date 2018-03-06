@@ -3,6 +3,7 @@ import { Button } from 'reactstrap'
 import shuffle from 'lodash/shuffle'
 
 import Ladder from './components/Ladder'
+import Pundits from './components/Pundits'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import './App.css'
@@ -48,7 +49,8 @@ class App extends Component {
           </Button>
         </header>
         <div stle={{ textAlign: 'center' }} />
-        <Ladder ladder={ladder} teams={TEAMS} comments={comments} />
+        {hasRun && <Ladder ladder={ladder} teams={TEAMS} comments={comments} />}
+        {hasRun && <Pundits />}
       </div>
     )
   }
