@@ -1,5 +1,8 @@
 import React from 'react'
+import sample from 'lodash/sample'
 import { Table } from 'reactstrap'
+
+import { PUNDITS } from '../content'
 
 class Ladder extends React.Component {
   renderTeams() {
@@ -27,7 +30,7 @@ class Ladder extends React.Component {
             <strong>{teamName}</strong>
           </td>
           <td style={{ verticalAlign: 'middle', backgroundColor: '#FCFFFC' }}>
-            <em>{comment}</em> -- Pundit
+            <em>{comment}</em> -- {sample(PUNDITS)}
           </td>
         </tr>
       )

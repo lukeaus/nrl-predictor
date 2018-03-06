@@ -1,16 +1,6 @@
 import React from 'react'
 import shuffle from 'lodash/shuffle'
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardLink,
-  CardTitle,
-  CardSubtitle,
-  Row,
-  Col
-} from 'reactstrap'
+import { Card, CardText, CardBody, Row, Col } from 'reactstrap'
 
 import { PUNDITS, PUNDIT_COMMENTS } from '../content'
 
@@ -26,7 +16,6 @@ export default () => {
               style={{ margin: '0 auto' }}
               width="120px"
               src={require(`../images/pundits/small/${pundit.toLowerCase()}.jpg`)}
-              alt="Card image cap"
             />
             <CardBody>
               <CardText>
