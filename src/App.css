@@ -5,9 +5,13 @@
 .App-header {
   height: 150px;
   background-repeat: no-repeat;
-  background-size: cover;
-  background: url("./images/1280px-Sydney_Football_Stadium.jpg");
+  background: url("./static/media/1280px-Sydney_Football_Stadium.jpg");
   background-position: 0 470px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .App-title {
