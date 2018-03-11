@@ -10,7 +10,7 @@ export default () => {
   const renderPundits = () => {
     return PUNDITS.map((pundit, index) => {
       return (
-        <Col sm="3">
+        <Col sm="3" key={index}>
           <Card>
             <img
               style={{ margin: '0 auto' }}
