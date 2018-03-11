@@ -15,6 +15,7 @@ export default () => {
             <img
               style={{ margin: '0 auto' }}
               width="120px"
+              alt={`pundit - ${pundit}`}
               src={require(`../images/pundits/small/${pundit.toLowerCase()}.jpg`)}
             />
             <CardBody>

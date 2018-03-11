@@ -48,7 +48,7 @@ export const PUNDITS = ['Luke', 'Dinny', 'Brendon', 'Mikey']
 export const PUNDIT_COMMENTS = [
   'Should be the greatest season ever',
   'Great things will be happening this year in NRL',
-  'Looking forward to seeing another Warriors loss at the buzzer',
+  'First try scorer...always back a Warrior',
   'The Warriors will let everyone down again',
   'Can\'t wait to see another Warriors loss live',
   'First try scorer here we come'
